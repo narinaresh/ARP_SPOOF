@@ -34,7 +34,7 @@ To build and run this project, you need the following:
 3. Compile the code using GCC:
 
    ```bash
-   gcc -o arpsniffer.c -lpcap -o arpspoofdetector
+   gcc -o arpspoofdetector.c -lpcap -o arpspoofdetector
    ```
 
 

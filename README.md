@@ -58,7 +58,7 @@ When executed, the program will:
 ## How It Works
 
 1. **Packet Capture**: The program uses `libpcap` to capture ARP packets in real-time.
-2. **Analysis**: Each ARP packet is inspected to detect anomalies such as duplicate IP-to-MAC mappings.
+2. **Analysis**: count number of packets recieved for a particular period and with the count of arp packets it decide (while arp spoofing there is will be continuous flow of arp packets!) 
 3. **Alerting**: If a potential ARP spoofing attack is detected, a warning message is displayed.
 
 ## Example Output
